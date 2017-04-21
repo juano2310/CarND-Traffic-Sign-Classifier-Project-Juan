@@ -171,3 +171,8 @@ After that it was easy to show one or more steps on the network.
 Here is my results at the end of the first and second convolution using my web images:
 
 ![alt text][image5]
+
+Note: After watching lessons 10 and 11 I found some ways I could improve this project.
+
+1 - I would reduce the number of epochs to prevent it from going up and down on the prediction accuracy.
+2 - I think the bad prediction of the max speed sign was due the small quantity of examples for this kind of images on the data sample. Adding variations of the images by inverting, rotating or augmenting the them might have increased the accuracy. 
