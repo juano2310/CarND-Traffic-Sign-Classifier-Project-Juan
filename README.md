@@ -106,6 +106,8 @@ Here are the results of the prediction:
 
 The model was able to correctly predict 5 other 7 traffic signs, which gives an accuracy of 71%.
 
+Based on the comparison with the accuracy of the testing sample (0.958) and the lower number of images for Speed limit 70 in contrast with other speed limits images I think the bad prediction of the max speed sign was due the small quantity of examples for this kind of images on the data sample. Adding variations of the images by inverting, rotating or augmenting the them might have increased the accuracy.  
+
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
@@ -172,7 +174,7 @@ Here is my results at the end of the first and second convolution using my web i
 
 ![alt text][image5]
 
-## Reflection:
+## Conclusion:
 ### After watching lessons 10 and 11 I found some ways I could improve this project.
 
 1 - I would reduce the number of epochs to prevent it from going up and down on the prediction accuracy.
