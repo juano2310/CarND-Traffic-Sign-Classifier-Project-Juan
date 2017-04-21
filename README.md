@@ -172,7 +172,7 @@ Here is my results at the end of the first and second convolution using my web i
 
 ![alt text][image5]
 
-## Note:
+## Reflection:
 ### After watching lessons 10 and 11 I found some ways I could improve this project.
 
 1 - I would reduce the number of epochs to prevent it from going up and down on the prediction accuracy.
